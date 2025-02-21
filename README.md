@@ -34,7 +34,7 @@ To run the project locally, follow these steps:
    ```bash
    npm run dev
 
-## 🛣️ 🛣️ API Endpoints
+## 🛣️ API Endpoints
 
 ### Register New User
 - **POST** `/subscribers`

@@ -2,10 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Wemerson Alves",
-    "email": "wemersoncontas22@gmail.com"
+    "name": "Usuário Indicado 3",
+    "email": "indicado3@gmail.com",
+    "referrer": "5ba9a695-c6df-4224-b5f3-dfacde87c136"
 }
 
 ###
 
-GET http://localhost:3333/invites/wemerson123
+GET http://localhost:3333/invites/6adfc0a2-0688-4806-9de3-198355e4cc7b
+
+###
+
+GET http://localhost:3333/subscribers/6adfc0a2-0688-4806-9de3-198355e4cc7b/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/6adfc0a2-0688-4806-9de3-198355e4cc7b/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/6adfc0a2-0688-4806-9de3-198355e4cc7b/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
